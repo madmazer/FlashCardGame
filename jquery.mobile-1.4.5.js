@@ -1426,10 +1426,7 @@ $.mobile.widget = $.Widget;
 			text: "loading"
 		},
 
-		defaultHtml: "<div class='" + loaderClass + "'>" +
-			"<span class='ui-icon-loading'></span>" +
-			"<h1></h1>" +
-			"</div>",
+		
 
 		// For non-fixed supportin browsers. Position at y center (if scrollTop supported), above the activeBtn (if defined), or just 100px from top
 		fakeFixLoader: function() {
